@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href= "baseStyle.css" rel= "stylesheet">
+
+    </head>
+
+    <body>
+        <div>
+            
+        <form>
+            <h1> Contact Form</h1>
+            <div>
+                   <div>
+                    <div class= "number">
+                        <b>1</b>
+                      </div>
+                      <div id= "float">
+                          <b>Your basic info </b>
+                      </div>
+                   </div>
+                                    
+
+                    <div class= "fields">
+                        <label> Name </label>
+                        <input type= "text">
+        
+                        <label> Email</label>
+                        <input type= "text"/>
+        
+                        <label> Password </label>
+                        <input type= "password"/>
+        
+                        <label> Birthday </label>
+                        <input type= "text" placeholder="dd/mm/yyyy"/>
+
+                        <label for= "Sex"> Sex:</label>
+                        <input id= "inputRadio" type= "radio" name= "sex" value= "female" checked /> Female
+                        <input id= "inputRadio" type= "radio" name= "sex" value= "male"/> Male
+                    </div>       
+            </div>
+
+            <div>
+                <div>
+                    <div class= "number">
+                        <b>2</b>
+                    </div>
+                    <div id= "float">
+                          <b>Your profile </b>
+                    </div>
+                   </div>
+
+                   <div class= "fields" >
+                    <label> About you </label>
+                    <textarea id="stripes" name="description" cols= "50" rows= "2"></textarea>
+    
+                    <label> Role</label>
+                    <select id="stripes">
+                        <option value="FrontEnd"> Front-End Developer </option>
+                        <option value="BackEnd"> Back-End Developer </option>
+                    </select>
+
+                    <label for= "interests"> Interests</label> <br>
+                        <input id="inputRadio" type= "checkbox" name= "interests1" value= "DataBase"/> Data Base
+                        <input id="inputRadio" type= "checkbox" name= "interests2" value= "Design"/> Design
+                        <input id="inputRadio" type= "checkbox" name= "interests3" value= "UnitTest"/> Unit Test
+                        <input id="inputRadio" type= "checkbox" name= "interests4" value= "CloudDevelopment"/> Cloud Development
+                        <input id="inputRadio" type= "checkbox" name= "interests5" value= "WebDevelopment"/> Web Development
+                </div> 
+            </div>
+           
+            <br>
+        <button>Send</button>
+        <button>Reset</button>
+        
+        </form>
+
+        </div>
+        
+    </body>
+
+
+</html>
