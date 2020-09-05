@@ -1,0 +1,88 @@
+* {
+    text-align: center;
+    padding: 5px 5px;
+ /*    margin-bottom: 1%; */
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Tahoma;
+    font-weight: lighter;
+    font-size: 20px;
+/*     display: flexbox; */
+}
+
+.flotante {
+
+    display: flex;
+    height: 70%;
+    /* background-color: midnightblue; */
+
+}
+
+
+#header {
+    max-width: 100%; 
+    margin-bottom: 1%;    
+    /*para que  se adapte de ancho*/
+    height: 30%;
+    background-color: royalblue;
+    /* float: left */;
+}
+
+#nav {
+    max-width: 100%; 
+    /*para que se adapte de ancho */
+    height: 30%;
+    background-color: slateblue;
+    /* float: left; */
+}
+
+#aside {
+    max-width: 29%; 
+    /*para que se adapte de ancho */
+/*     height: 100%; -si lo descomento se achica*/
+   /*  margin: 100 1%; */ 
+    background-color: teal;
+    display: flexbox;
+    /* float: left; */
+}
+
+#section {
+    max-width: 70%; 
+    /*para que se adapte de ancho */
+    height: 100%;
+   margin: 0 auto;
+    background-color: darkcyan;
+    /* display: flexbox; */
+    /* float: left; */
+}
+
+#article {
+    max-width: 90%; 
+    /*para que se adapte de ancho */
+    height: 80%;
+   /* margin: 1000 auto; -quiero que se adapte*/
+   margin: 0 auto;
+    /* margin-left: 1%; */
+    background-color: cornflowerblue;
+    /* display: flexbox; */
+    /* float: left; */
+}
+
+#details {
+    max-width: 90%; 
+    /*para que se adapte de ancho */
+    height: 80%;
+    margin: 0 auto;   
+    background-color: darkseagreen;
+    display: flexbox;
+    /* float: left; */
+}
+
+.piePagina {
+    max-width: 100%; 
+    height: 30%;
+    background-color: midnightblue;
+    padding: 5px 5px;
+    /* float: left; */
+}
