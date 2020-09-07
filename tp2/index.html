@@ -8,7 +8,7 @@
     <body>
         <div>
             
-        <form>
+        <form action= "action.php" method= "get">
             <h1> Contact Form</h1>
             <div>
                    <div>
@@ -23,16 +23,16 @@
 
                     <div class= "fields">
                         <label> Name </label>
-                        <input type= "text">
+                        <input type= "text" name= "name_var">
         
                         <label> Email</label>
-                        <input type= "text"/>
+                        <input type= "text" name= "email_var"/>
         
                         <label> Password </label>
-                        <input type= "password"/>
+                        <input type= "password" name = "pass_var"/>
         
                         <label> Birthday </label>
-                        <input type= "text" placeholder="dd/mm/yyyy"/>
+                        <input type= "text" placeholder="dd/mm/yyyy" name = "bday_var"/>
 
                         <label for= "Sex"> Sex:</label>
                         <input id= "inputRadio" type= "radio" name= "sex" value= "female" checked /> Female
